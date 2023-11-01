@@ -39,4 +39,5 @@ int binary_tree_is_full(const binary_tree_t *tree);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 int binary_tree_is_perfect(const binary_tree_t *tree);
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
+size_t binary_tree_nodes(const binary_tree_t *tree);
 #endif /* BINARY_TREES_H */
